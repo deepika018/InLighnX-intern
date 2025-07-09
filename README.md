@@ -2,7 +2,7 @@
 
 A powerful full-stack **Chat & Video Calling Application** designed for real-time communication and immersive interaction. Whether you're collaborating, connecting, or learning languages – this app has it all!
 
-![App Screenshot](https://via.placeholder.com/1000x400.png?text=Your+App+Screenshot)
+![image](https://github.com/user-attachments/assets/7e621f59-ee99-4d64-b3bc-b9a50e7b9c2d)
 
 ---
 
@@ -55,7 +55,43 @@ STEAM_API_SECRET=your_stream_api_secret
 JWT_SECRET_KEY=your_jwt_secret
 NODE_ENV=development
 
-### Frontend (/frontend)
-env
+# ✨ Frontend – Chat & Video Calling App
 
+This is the **Frontend** part of the Fullstack Chat & Video Calling App built using **React**, **TailwindCSS**, and **TanStack Query**. It supports real-time messaging, video calls, and dynamic theming, powered by Zustand for state management and the Stream API for WebSocket messaging.
+
+---
+
+## 🔥 Key Features
+
+- 💬 Real-time chat with emoji reactions and typing indicators  
+- 📞 1-on-1 and group video calling with screen sharing and recording  
+- 🎨 32 beautiful UI themes with dark/light mode  
+- 🌍 Language exchange mode with live switching  
+- 🔒 JWT-based secure route access  
+- ⚡ Optimized state and data fetching with Zustand + TanStack Query  
+- 🚨 Frontend error boundaries and toast notifications  
+- 📱 Fully responsive for mobile, tablet, and desktop  
+
+---
+
+## 📦 Tech Stack
+
+| Technology       | Purpose                    |
+|------------------|-----------------------------|
+| React            | Frontend UI                |
+| TailwindCSS      | Styling                    |
+| TanStack Query   | Data fetching & caching    |
+| Zustand          | Global state management    |
+| Stream API       | Real-time messaging        |
+| React Router     | Routing                    |
+| Vite             | Fast dev environment       |
+
+---
+
+## 🔧 Environment Setup
+
+Create a `.env` file in the `/frontend` directory:
+
+```env
 VITE_STREAM_API_KEY=your_stream_api_key
+
